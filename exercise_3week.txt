@@ -1,0 +1,14 @@
+1)
+
+2)
+A = [4, 10, 40, -5, 100, -43]
+minimum= min (A)
+print(minimum)
+
+3)
+A = [30, 20, 10, 40]
+Average= sum(A) / len(A)
+print(Average)
+
+4)
+
