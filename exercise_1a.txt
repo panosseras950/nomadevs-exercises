@@ -1,0 +1,13 @@
+
+Master
+Exercise 2 "Implement the function find_minimum(A) which returns the minimum value of array A. For example, given the array [4, 10, 40, -5, 100, -43] the function would return -43."
+
+def find_minimum(A):
+    if len(A) == 0:             
+        return None
+    minimum = A[0]              
+    for i in range(1, len(A)):  
+        if A[i] < minimum:      
+            minimum = A[i]       
+    return minimum
+
